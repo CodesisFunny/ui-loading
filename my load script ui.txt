@@ -62,7 +62,7 @@ UICorner_3.Parent = TextButton
 
 -- Scripts:
 
-local function DYUEDB_fake_script() -- TextButton.LocalScript 
+local function EYKVLB_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -71,4 +71,4 @@ local function DYUEDB_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DYUEDB_fake_script)()
+coroutine.wrap(EYKVLB_fake_script)()
