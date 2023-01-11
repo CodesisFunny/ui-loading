@@ -54,7 +54,7 @@ UICorner_2.Parent = TextLabel_2
 
 Framem2.Name = "Framem2"
 Framem2.Parent = Framem1
-Framem2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framem2.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
 Framem2.Position = UDim2.new(0.0830000043, 0, 0.75, 0)
 Framem2.Size = UDim2.new(0, 300, 0, 20)
 
@@ -73,7 +73,7 @@ UICorner_5.Parent = ScreenGuim1
 
 -- Scripts:
 
-local function HFVU_fake_script() -- TextLabel.LocalScript 
+local function WOTHWQG_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -87,17 +87,17 @@ local function HFVU_fake_script() -- TextLabel.LocalScript
 		wait(1)
 	end
 end
-coroutine.wrap(HFVU_fake_script)()
-local function PLRO_fake_script() -- Framem3.LocalScript 
+coroutine.wrap(WOTHWQG_fake_script)()
+local function QMEGXUR_fake_script() -- Framem3.LocalScript 
 	local script = Instance.new('LocalScript', Framem3)
 
 	script.Parent:TweenSize(UDim2.new(0,300,0,20),"InOut","Sine",6)
 end
-coroutine.wrap(PLRO_fake_script)()
-local function ZNBZ_fake_script() -- Framem1.LocalScript 
+coroutine.wrap(QMEGXUR_fake_script)()
+local function YZAGY_fake_script() -- Framem1.LocalScript 
 	local script = Instance.new('LocalScript', Framem1)
 
 	wait(6)
 	script.Parent:Destroy()
 end
-coroutine.wrap(ZNBZ_fake_script)()
+coroutine.wrap(YZAGY_fake_script)()
