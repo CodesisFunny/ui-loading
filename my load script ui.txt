@@ -13,6 +13,7 @@ local Framem2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local Framem3 = Instance.new("Frame")
 local UICorner_4 = Instance.new("UICorner")
+local renonXH = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
 
 --Properties:
@@ -69,11 +70,22 @@ Framem3.Size = UDim2.new(0, 0, 0, 20)
 
 UICorner_4.Parent = Framem3
 
+renonXH.Name = "renon X H"
+renonXH.Parent = Framem1
+renonXH.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+renonXH.BorderColor3 = Color3.fromRGB(25, 25, 25)
+renonXH.Position = UDim2.new(0.211428583, 0, 0.0500000007, 0)
+renonXH.Size = UDim2.new(0, 200, 0, 50)
+renonXH.Font = Enum.Font.SourceSansBold
+renonXH.Text = "Renon X"
+renonXH.TextColor3 = Color3.fromRGB(255, 255, 255)
+renonXH.TextSize = 60.000
+
 UICorner_5.Parent = ScreenGuim1
 
 -- Scripts:
 
-local function WOTHWQG_fake_script() -- TextLabel.LocalScript 
+local function GGCEJ_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -87,17 +99,17 @@ local function WOTHWQG_fake_script() -- TextLabel.LocalScript
 		wait(1)
 	end
 end
-coroutine.wrap(WOTHWQG_fake_script)()
-local function QMEGXUR_fake_script() -- Framem3.LocalScript 
+coroutine.wrap(GGCEJ_fake_script)()
+local function CCIJN_fake_script() -- Framem3.LocalScript 
 	local script = Instance.new('LocalScript', Framem3)
 
 	script.Parent:TweenSize(UDim2.new(0,300,0,20),"InOut","Sine",6)
 end
-coroutine.wrap(QMEGXUR_fake_script)()
-local function YZAGY_fake_script() -- Framem1.LocalScript 
+coroutine.wrap(CCIJN_fake_script)()
+local function TIGXQ_fake_script() -- Framem1.LocalScript 
 	local script = Instance.new('LocalScript', Framem1)
 
 	wait(6)
 	script.Parent:Destroy()
 end
-coroutine.wrap(YZAGY_fake_script)()
+coroutine.wrap(TIGXQ_fake_script)()
