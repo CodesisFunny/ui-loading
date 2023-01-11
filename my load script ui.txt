@@ -3,72 +3,101 @@
 
 -- Instances:
 
-local ScreenGuik1 = Instance.new("ScreenGui")
-local Framek1 = Instance.new("Frame")
+local ScreenGuim1 = Instance.new("ScreenGui")
+local Framem1 = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local UICorner = Instance.new("UICorner")
-local TextBox = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
 local UICorner_2 = Instance.new("UICorner")
-local TextButton = Instance.new("TextButton")
+local Framem2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
+local Framem3 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGuik1.Name = "ScreenGuik1"
-ScreenGuik1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGuik1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGuim1.Name = "ScreenGuim1"
+ScreenGuim1.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGuim1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Framek1.Name = "Framek1"
-Framek1.Parent = ScreenGuik1
-Framek1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-Framek1.BorderColor3 = Color3.fromRGB(25, 25, 25)
-Framek1.Position = UDim2.new(0, 908, 0, 199)
-Framek1.Size = UDim2.new(0, 350, 0, 200)
+Framem1.Name = "Framem1"
+Framem1.Parent = ScreenGuim1
+Framem1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Framem1.BorderColor3 = Color3.fromRGB(25, 25, 25)
+Framem1.Position = UDim2.new(0, 528, 0, 200)
+Framem1.Size = UDim2.new(0, 350, 0, 200)
 
-TextLabel.Parent = Framek1
-TextLabel.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-TextLabel.BorderColor3 = Color3.fromRGB(25, 25, 25)
-TextLabel.Position = UDim2.new(0.800000012, 0, 0, 10)
-TextLabel.Size = UDim2.new(0, 50, 0, 50)
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "V 1.4"
-TextLabel.TextColor3 = Color3.fromRGB(0, 255, 149)
-TextLabel.TextSize = 35.000
+TextLabel.Parent = Framem1
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.BorderColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.Position = UDim2.new(0.285714298, 0, 0.439999998, 0)
+TextLabel.Size = UDim2.new(0, 149, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Loading."
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
 
 UICorner.Parent = TextLabel
 
-TextBox.Parent = Framek1
-TextBox.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TextBox.BorderColor3 = Color3.fromRGB(30, 30, 30)
-TextBox.Position = UDim2.new(0.286000013, 0, 0.439999998, 0)
-TextBox.Size = UDim2.new(0, 149, 0, 23)
-TextBox.Font = Enum.Font.SourceSans
-TextBox.Text = "Enter Key"
-TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextBox.TextSize = 14.000
+TextLabel_2.Parent = Framem1
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextLabel_2.BorderColor3 = Color3.fromRGB(25, 25, 25)
+TextLabel_2.Position = UDim2.new(0.800000012, 0, 0, 10)
+TextLabel_2.Size = UDim2.new(0, 50, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "V 1.4"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 255, 149)
+TextLabel_2.TextSize = 35.000
 
-UICorner_2.Parent = TextBox
+UICorner_2.Parent = TextLabel_2
 
-TextButton.Parent = Framek1
-TextButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-TextButton.BorderColor3 = Color3.fromRGB(30, 30, 30)
-TextButton.Position = UDim2.new(0.342857152, 0, 0.63499999, 0)
-TextButton.Size = UDim2.new(0, 109, 0, 23)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton.TextSize = 14.000
+Framem2.Name = "Framem2"
+Framem2.Parent = Framem1
+Framem2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framem2.Position = UDim2.new(0.0830000043, 0, 0.75, 0)
+Framem2.Size = UDim2.new(0, 300, 0, 20)
 
-UICorner_3.Parent = TextButton
+UICorner_3.Parent = Framem2
+
+Framem3.Name = "Framem3"
+Framem3.Parent = Framem1
+Framem3.BackgroundColor3 = Color3.fromRGB(0, 255, 149)
+Framem3.BorderColor3 = Color3.fromRGB(0, 255, 149)
+Framem3.Position = UDim2.new(0.0829999968, 0, 0.75, 0)
+Framem3.Size = UDim2.new(0, 0, 0, 20)
+
+UICorner_4.Parent = Framem3
+
+UICorner_5.Parent = ScreenGuim1
 
 -- Scripts:
 
-local function EYKVLB_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+local function HFVU_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
 
-	script.Parent.MouseButton1Click:Connect(function()
-		if script.Parent.Parent.TextBox.Text == "No.1" then
-			script.Parent.Parent.Parent.Framek1 = script.Parent.Parent.Parent:Destroy()
-		end
-	end)
+	while true do
+		script.Parent.Text = "Loading."
+		wait(2)
+		script.Parent.Text = "Loading.."
+		wait(2)
+		script.Parent.Text = "Loading..."
+		wait(1.5)
+		script.Parent.Text = "Loaded!"
+		wait(1)
+	end
 end
-coroutine.wrap(EYKVLB_fake_script)()
+coroutine.wrap(HFVU_fake_script)()
+local function PLRO_fake_script() -- Framem3.LocalScript 
+	local script = Instance.new('LocalScript', Framem3)
+
+	script.Parent:TweenSize(UDim2.new(0,300,0,20),"InOut","Sine",6)
+end
+coroutine.wrap(PLRO_fake_script)()
+local function ZNBZ_fake_script() -- Framem1.LocalScript 
+	local script = Instance.new('LocalScript', Framem1)
+
+	wait(6)
+	script.Parent:Destroy()
+end
+coroutine.wrap(ZNBZ_fake_script)()
